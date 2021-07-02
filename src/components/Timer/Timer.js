@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-
+import "./Timer.scss"
 const Timer = (props) => {
 	const [hours, setHours] = useState(0)
 	const [minutes, setMinutes] = useState(0)

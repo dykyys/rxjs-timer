@@ -61,17 +61,23 @@ function App() {
 			<h1>RxJS Timer</h1>
 			<hr />
 			<Timer timePassed={timer ? timer : diff} />
-			<div>
-				<button onClick={onStartHandler} className="btn btn-success">
-					Start/Stop
-				</button>
-				<button onClick={onWaitHandler} className="btn btn-warning">
-					Wait
-				</button>
-				<button onClick={onResetHandler} className="btn btn-danger">
-					Reset
-				</button>
-			</div>
+			<ul className="App__list">
+				<li className="App__item">
+					<button onClick={onStartHandler} className="App__btn App__btn--start">
+						Start/Stop
+					</button>
+				</li>
+				<li className="App__item">
+					<button onClick={onWaitHandler} className="App__btn App__btn--wait">
+						Wait
+					</button>
+				</li>
+				<li className="App__item">
+					<button onClick={onResetHandler} className="App__btn App__btn--stop">
+						Reset
+					</button>
+				</li>
+			</ul>
 		</div>
 	)
 }
