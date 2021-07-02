@@ -1,0 +1,19 @@
+{
+	"printWidth": 120,
+	"tabWidth": 2,
+	"useTabs": true,
+	"singleQuote": false,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"arrowParents": "avoid",
+	"proseWrap": "always",
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"insertPragma": false,
+	"jsxBracketSameline": false,
+	"jsxSingleQuote": false,
+	"quoteProps": "as-needed",
+	"requirePragma": false,
+	"semi": false,
+	"vueIndentScriptAndStyle": false,
+	"singleAttributePerline": false
+}
